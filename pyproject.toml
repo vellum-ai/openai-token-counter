@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "openai-token-counter"
-version = "1.0.2"
+name = "vellum-openai-token-counter"
+version = "1.0.3"
 description = "OpenAI Token Counter"
 authors = ["Eitan Nargassi <eitan@nyno.ai>"]
 license = "MIT"
@@ -18,7 +18,7 @@ Changelog = "https://github.com/Eitan1112/openai-token-counter/releases"
 [tool.poetry.dependencies]
 python = "^3.9"
 pydantic = "^2.3.0"
-tiktoken = "^0.5.1"
+tiktoken = ">=0.7.0"
 
 [tool.poetry.group.dev.dependencies]
 Pygments = "^2.16.1"
