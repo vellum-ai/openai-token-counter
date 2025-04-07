@@ -1,4 +1,4 @@
-from openai_token_counter.models import (
+from vellum_openai_token_counter.models import (
     ArrayProp,
     BoolProp,
     NullProp,

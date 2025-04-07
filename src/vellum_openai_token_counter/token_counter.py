@@ -4,7 +4,7 @@ from typing import Optional
 
 from tiktoken import encoding_for_model, get_encoding
 
-from openai_token_counter.format import format_function_definitions
+from vellum_openai_token_counter.format import format_function_definitions
 
 from .models import OpenAIFunction, OpenAIMessage, OpenAIRequest
 
@@ -80,7 +80,7 @@ class TokenCounter:
         else:
             encoding = get_encoding("cl100k_base")
 
-        return len(encoding.encode(string))
+        return len(encoding.encode_ordinary(string))
 
     def estimate_tokens_in_messages(self, message: OpenAIMessage) -> int:
         """Estimate token count for a single message.

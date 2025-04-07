@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "vellum-openai-token-counter"
-version = "1.0.3"
+version = "1.0.5"
 description = "OpenAI Token Counter"
 authors = ["Eitan Nargassi <eitan@nyno.ai>"]
 license = "MIT"
@@ -8,9 +8,7 @@ readme = "README.md"
 homepage = "https://github.com/nyno-ai/openai-token-counter"
 repository = "https://github.com/nyno-ai/openai-token-counter"
 documentation = "https://github.com/nyno-ai/openai-token-counter/README.md"
-classifiers = [
-    "Development Status :: 2 - Pre-Alpha",
-]
+classifiers = ["Development Status :: 2 - Pre-Alpha"]
 
 [tool.poetry.urls]
 Changelog = "https://github.com/Eitan1112/openai-token-counter/releases"

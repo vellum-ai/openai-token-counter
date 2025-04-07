@@ -8,9 +8,7 @@ def openai_token_counter(
     messages: list[dict[str, Any]],
     model: Optional[str] = None,
     functions: Optional[list[dict[str, Any]]] = None,
-    function_call: Optional[
-        Union[dict[Literal["name"], Any], Literal["auto"], Literal["none"]]
-    ] = None,
+    function_call: Optional[Union[dict[Literal["name"], Any], Literal["auto"], Literal["none"]]] = None,
 ) -> int:
     """Token counter function.
 

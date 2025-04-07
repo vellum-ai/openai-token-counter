@@ -96,6 +96,4 @@ class OpenAIRequest(BaseModel):
     # "auto": Call or no call whatever function
     # "none": Don't call any function
     # dict {"name": "my_func"}: Call the function named "my_func"
-    function_call: Optional[
-        Union[Literal["auto", "none"], dict[Literal["name"], str]]
-    ] = None
+    function_call: Optional[Union[Literal["auto", "none"], dict[Literal["name"], str]]] = None
