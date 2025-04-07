@@ -4,7 +4,7 @@ from typing import Optional
 
 from tiktoken import encoding_for_model, get_encoding
 
-from openai_token_counter.format import format_function_definitions
+from vellum_openai_token_counter.format import format_function_definitions
 
 from .models import OpenAIFunction, OpenAIMessage, OpenAIRequest
 
